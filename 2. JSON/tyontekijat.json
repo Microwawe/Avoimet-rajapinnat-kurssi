@@ -1,0 +1,40 @@
+{
+    "tyontekijat": [
+        {
+            "firstName": "Mauno",
+            "lastName": "Ahonen",
+            "address": "Bulevardi 31",
+            "phone": {
+                "home": "555-555 555",
+                "work": null
+            }
+        },
+        {
+            "firstName": "Matti",
+            "lastName": "Näsä",
+            "address": "Bulevardi 31",
+            "phone": {
+                "home": "555-555 555",
+                "work": "123 456 789"
+            }
+        },
+        {
+            "firstName": "Raimo",
+            "lastName": "Vormisto",
+            "address": "Bulevardi 31",
+            "phone": {
+                "home": "555-555 555",
+                "work": "987 654 321"
+            }
+        },
+        {
+            "firstName": "Timo",
+            "lastName": "Silakka",
+            "address": "Bulevardi 31",
+            "phone": {
+                "home": "555-555 555",
+                "work": null
+            }
+        }
+    ]
+}
