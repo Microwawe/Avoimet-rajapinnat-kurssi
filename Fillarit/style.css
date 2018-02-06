@@ -12,3 +12,77 @@ h4, p {
     margin: 0;
     padding: 0;
 }
+
+hr {
+    margin: 0 auto;
+    padding: 0;
+    width: 90%;
+}
+
+.weather {
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    height: 160px;
+    width: 120px;
+    background-color: #fdfdfd;
+    border: 2px outset #efefef;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    font-family: LeagueGothic-Regular;
+}
+
+.weather-top-container {
+    height: 65%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather-bottom-container {
+    flex: 1;
+    display: flex;
+}
+
+.bottom-left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.degrees {
+    font-size: 3.5rem;
+}
+
+.description {
+    font-size: 1.1rem;
+}
+
+.wind-icon {
+    height: 25px;
+    width: 25px;
+}
+
+
+
+@font-face {
+    font-family: LeagueGothic-Regular;
+    src: url(LeagueGothic-Regular.otf);
+}
+
+@font-face {
+    font-family: LeagueGothic-Italic;
+    src: url(LeagueGothic-Italic.otf);
+}
